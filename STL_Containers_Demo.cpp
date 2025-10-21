@@ -110,7 +110,7 @@ void listDemo() {
     cout << endl;
     
     // 删除特定值
-    lst.remove(20);  // 删除所有值为20的元素
+    lst.remove(10);  // 删除所有值为20的元素
     cout << "删除20后: ";
     for (int val : lst) {
         cout << val << " ";
